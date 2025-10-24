@@ -1,1 +1,1 @@
-# domowe-testy
+# Randomowe programy do ćwiczeń w domu
