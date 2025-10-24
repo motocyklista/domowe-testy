@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void) {
+    int a, b, c, e;
+
+    printf("Podaj trzy liczby: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a > b && a > c) {
+        e = a;  // jeśli a największe, przypisz a
+    }
+    else if (b > a && b > c) {
+        e = b;  // jeśli b największe, przypisz b
+    }
+    else if (c > a && c > b) {
+        e = c;  // jeśli c największe, przypisz c
+    }
+
+    printf("Największa liczba to %d\n", e);
+
+    return 0;
+}
