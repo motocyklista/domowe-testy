@@ -12,7 +12,7 @@ int main(void) {
     else if (b > a && b > c) {
         e = b;  // jeśli b największe, przypisz b
     }
-    else if (c > a && c > b) {
+    else (c > a && c > b) {
         e = c;  // jeśli c największe, przypisz c
     }
 
